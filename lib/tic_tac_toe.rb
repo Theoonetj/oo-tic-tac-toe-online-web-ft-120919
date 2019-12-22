@@ -8,7 +8,7 @@
 
 # SPEC
 # There are three test files that should be completed in order. 01_tic_tac_toe_spec.rb sets tests for our helper methods within TicTacToe. 02_play_spec.rb tests the main #play method. 03_cli_spec.rb tests the CLI.
-require 'pry'
+
 class TicTacToe
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
@@ -151,7 +151,7 @@ end
 
 
 #bin/tictactoe
-
+#require 'pry'
 #require_relative '../lib/tic_tac_toe.rb'
 
 game = TicTacToe.new
